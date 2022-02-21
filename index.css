@@ -15,7 +15,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
 }
-
+/* header */
 .header-container {
   display: flex;
   /* background-color: yellow; */
@@ -61,6 +61,13 @@ body {
   width: 30%;
   margin-right: 10%;
 }
+.warna {
+  color: red;
+}
+.bar-menu {
+  display: none;
+}
+/* header */
 
 /* jumbotron 1*/
 .jumbotron-1-container {
@@ -78,7 +85,6 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-primary-color);
   width: 94%;
-
   line-height: 1.3em;
 }
 
@@ -110,6 +116,22 @@ body {
   margin-top: -12%;
 }
 
+.jumbotron-2-container {
+  display: flex;
+  height: 50vh;
+  flex-wrap: wrap;
+}
+.kotak1 {
+  width: 50%;
+  height: 30vh;
+}
+/* .kotak2 {
+  width: 50%;
+  height: 70vh;
+}
+.kotak3 {
+  width: 50%;
+} */
 /* jumbotron 1 */
 
 /* gradient  */
@@ -133,10 +155,15 @@ body {
   .logo {
     color: red;
   }
+  .header-container {
+    padding: 3% 2% 1% 2%;
+  }
+
   /* header */
   /* jumbotron-1 */
   .jumbotron-1-container {
     flex-direction: column;
+    margin-top: 8vh;
   }
 
   .jumbotron-1-container > div:first-child {
@@ -158,6 +185,28 @@ body {
   }
   .menu-container {
     display: none;
+  }
+  .bar-menu {
+    display: block;
+  }
+  .image-container {
+    height: 50vh;
+    /* object-fit: cover; */
+    /* object-position: center bottom; */
+    /* overflow: hidden; */
+  }
+
+  .foto {
+    height: 100%;
+  }
+
+  .button-container > button {
+    font-size: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 3vh;
+    border-radius: 5px;
+    margin-right: 3%;
   }
   /* jumbotron-1 */
 }
