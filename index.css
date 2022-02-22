@@ -8,7 +8,7 @@
   --text-primary-color: #260041;
 }
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
 }
 
 .pd-container-hz {
@@ -31,7 +31,7 @@ body {
   background-color: yellow;
 }
 .text-primary {
-  color: var(--primary-color);
+  color: var(--primary-color) !important;
 }
 .menu-container > div {
   margin-right: 10%;
@@ -40,8 +40,8 @@ body {
 }
 
 .garis {
-  border-bottom: var(--primary-color) 2px solid;
-  height: 1.2em;
+  border-bottom: var(--primary-color) 2px solid !important;
+  height: 1.2em !important;
   width: 20%;
   text-align: center;
 }
@@ -116,6 +116,9 @@ body {
   margin-top: -12%;
 }
 
+/* jumbotron 1 */
+
+/* jumbotron 2 */
 .jumbotron-2-container {
   display: flex;
   height: 50vh;
@@ -132,7 +135,6 @@ body {
 .kotak3 {
   width: 50%;
 } */
-/* jumbotron 1 */
 
 /* gradient  */
 .gradient-container {

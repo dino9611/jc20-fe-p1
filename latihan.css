@@ -1,0 +1,25 @@
+.image-container {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image-container-1 {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.foto {
+  transition: 500ms;
+  object-fit: cover;
+}
+
+.melengkung {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.magnif:hover .foto {
+  transform: scale(1.1);
+  transition: 500ms ease-in;
+}
